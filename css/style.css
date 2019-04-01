@@ -1,0 +1,136 @@
+/*
+	00. RESET CSS
+	00. General
+	01. Header
+	02. Menu
+*/
+
+
+
+/*=========== 00. RESET CSS ================ */	
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:before, :after  {
+	box-sizing: border-box;
+}
+a, span, :before, :after { 
+	display: inline-block; 
+}
+:focus {
+	outline: none;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+
+body {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.285;
+	color: #000;
+	font-weight: 400;
+	min-height: 2000px;
+	background-image: url("../images/bg.jpg");
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.demo {
+	height: 500px;
+	background-color: #fff;
+}
+
+/*=========== 00. General ================ */	
+.row {
+	font-size: 0;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row [class*="hm-col-"] {
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.hm-col-5 {
+	width: 50%;
+}
+.hm-col-10{
+	width: 100%
+}
+
+.row.va-m [class*="hm-col-"] {
+	vertical-align: middle;
+}
+
+.clear::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.input-group {
+	position: relative;
+}
+.input-group input {
+	border: 1px solid #dbdbdb;
+	height: 35px;
+	padding: 0 40px 0 13px;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 13px;
+	color: #999;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.input-group input:focus {
+	border-color: #333;
+}
+.input-group .icons {
+	position: absolute;
+	font-size: 15px;
+	color: #999;
+	right: 13px;
+	top: 10px;
+}
+
+.hinh1{
+	position: relative;
+}
+
+.hinh1 .logo, .hinh1 h1{
+	position: absolute;
+}
+.logo{
+	top: 0;
+	left: 0;
+}
+.hinh1 h1{
+top: 0;
+right: 0;
+font-size: 40px;
+color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
